@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Authoritative project scope and AI onboarding brief for FlowCraft.">
+  <title>FlowCraft — Scope of Work</title>
+</head>
+<body data-project="FlowCraft" data-status="placeholder">
+  <main>
+    <header>
+      <p>ThineCraft project scope</p>
+      <h1>FlowCraft</h1>
+      <p><strong>Status:</strong> Placeholder project. This document describes intended direction; it does not claim that working functionality exists.</p>
+      <p><a href="https://flow.thinecraft.io">Project website</a></p>
+    </header>
+
+    <section id="purpose">
+      <h2>Purpose</h2>
+      <p>FlowCraft is the planned open workflow and integration platform for connecting ThineCraft services and external systems through automation that people can inspect, explain, and operate.</p>
+    </section>
+
+    <section id="confirmed-direction">
+      <h2>Confirmed direction</h2>
+      <ul>
+        <li>Readable visual workflows with triggers, branches, decisions, approvals, actions, retries, and outcomes.</li>
+        <li>Open connector contracts for ThineCraft services and external systems.</li>
+        <li>Inspectable data mappings and transformations.</li>
+        <li>Versioned workflow definitions, run history, errors, evidence, and human interventions.</li>
+        <li>Portable automation definitions that can be reviewed and supported outside a closed platform.</li>
+      </ul>
+    </section>
+
+    <section id="boundaries">
+      <h2>Boundaries and non-goals</h2>
+      <ul>
+        <li>FlowCraft should make a process visible before making it automatic.</li>
+        <li>Opaque background behavior without inspectable definitions or evidence conflicts with the product direction.</li>
+        <li>Domain records remain owned by their source services; FlowCraft coordinates them.</li>
+        <li>No implementation, connector catalog, execution guarantee, or production readiness is currently promised.</li>
+      </ul>
+    </section>
+
+    <section id="integrations">
+      <h2>Expected integrations</h2>
+      <ul>
+        <li>ShareCraft content, lists, forms, permissions, and public submission processes.</li>
+        <li>DriveCraft synchronization and migration events.</li>
+        <li>TeamCraft notifications, approvals, and human participation.</li>
+        <li>GanttCraft tasks and schedule changes.</li>
+        <li>FormCraft submissions and PdfCraft document processes.</li>
+        <li>External systems through documented connector contracts.</li>
+      </ul>
+    </section>
+
+    <section id="open-decisions">
+      <h2>Open decisions</h2>
+      <ul>
+        <li>Workflow definition format, expression language, and visual-editor model.</li>
+        <li>Execution, scheduling, queuing, retries, idempotency, compensation, and recovery.</li>
+        <li>Connector security, secrets, delegated identity, permissions, and isolation.</li>
+        <li>Versioning, deployment, environments, testing, observability, and audit retention.</li>
+      </ul>
+    </section>
+
+    <section id="ai-guidance">
+      <h2>Guidance for AI contributors</h2>
+      <ol>
+        <li>Favor inspectable, explainable, and portable automation.</li>
+        <li>Do not describe planned workflows or connectors as implemented.</li>
+        <li>Preserve run evidence, error visibility, and human recovery paths in design proposals.</li>
+        <li>Do not make FlowCraft the owner of records that belong to another service.</li>
+        <li>Record new product decisions in this file before presenting them as settled scope.</li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
